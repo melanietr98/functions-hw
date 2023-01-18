@@ -53,11 +53,11 @@
 
 //Define a function, as a function declaration, multiplyArraythat takes an array of numbers and returns the product those numbers. For example, multiplyArray([2, 4, 5]);would return 40.
 
-//function multiplyArray(num) {
-//    let product =1;
- //   for (let i=0; i < num.length; i++) {
-  //      product *= num[i];
- //   }
-//    return product;
-//}
-//console.log("the answer is " + multiplyArray([2, 4, 5]));
+function multiplyArray(num) {
+    let product =1;
+ for (let i=0; i < num.length; i++) {
+        product *= num[i];
+   }
+    return product;
+}
+console.log("the answer is " + multiplyArray([2, 4, 5]));
